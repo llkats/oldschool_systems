@@ -4,43 +4,55 @@
 <title>O L D S C H O O L</title>
 <style type="text/css">
     body {
-        width: 35em;
-        margin: 0 auto;
 				font-family: monospace;
         font-family: Tahoma, Verdana, Arial, sans-serif;
 			  background-color: black;
 	      color: white;
+        padding: 40px 0;
+        text-align: center;
     }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
     #info {
 			  font-size: 150%;
-        width: 35em;
-        margin: 0 auto;
 				font-family: monospace;
 			  background-color: black;
 	      color: white;
+        margin-top: 50px;
     }
 
-		pre #banner {color: #ffffff;}
-		pre #picture {color: #55ffff;}
-		a:link {color: #ff55ff;}
-		a:visited {color: #aa00aa;}
-		a:hover { color: #ffffff;}
-		a:active { color: #ffffff;}
+		#banner {
+      color: #ffffff;
+      margin: 0 0 30px -25em;
+      width: 47em;
+      position: relative;
+      left: 50%;
+    }
+
+		#picture { color: #55ffff; }
+
+		a:link { color: #ff55ff; }
+		a:visited { color: #aa00aa; }
+		a:hover { color: #ffffff; }
+		a:active { color: #ffffff; }
 </style>
 </head>
 <body>
-<center>
-<pre>
-<span id="banner">
-   _____    __      _____     ______  _____   __   __    _____      _____    __     
-  ) ___ (  /\_\    /\ __/\   / ____/\/\ __/\ /\_\ /_/\  ) ___ (    ) ___ (  /\_\    
- / /\_/\ \( ( (    ) )  \ \  ) ) __\/) )__\/( ( (_) ) )/ /\_/\ \  / /\_/\ \( ( (    
-/ /_/ (_\ \\ \_\  / / /\ \ \  \ \ \ / / /    \ \___/ // /_/ (_\ \/ /_/ (_\ \\ \_\   
-\ \ )_/ / // / /__\ \ \/ / /  _\ \ \\ \ \_   / / _ \ \\ \ )_/ / /\ \ )_/ / // / /__ 
+<pre id="banner">
+   _____    __      _____     ______  _____   __   __    _____      _____    __
+  ) ___ (  /\_\    /\ __/\   / ____/\/\ __/\ /\_\ /_/\  ) ___ (    ) ___ (  /\_\
+ / /\_/\ \( ( (    ) )  \ \  ) ) __\/) )__\/( ( (_) ) )/ /\_/\ \  / /\_/\ \( ( (
+/ /_/ (_\ \\ \_\  / / /\ \ \  \ \ \ / / /    \ \___/ // /_/ (_\ \/ /_/ (_\ \\ \_\
+\ \ )_/ / // / /__\ \ \/ / /  _\ \ \\ \ \_   / / _ \ \\ \ )_/ / /\ \ )_/ / // / /__
  \ \/_\/ /( (_____() )__/ /  )____) )) )__/\( (_( )_) )\ \/_\/ /  \ \/_\/ /( (_____(
   )_____(  \/_____/\/___\/   \____\/ \/___\/ \/_/ \_\/  )_____(    )_____(  \/_____/
-</span>
-<span id="picture">
+</pre>
+<pre id="picture">
 ::cllllllllllllllllllllllloooooooooooooooooooooooo
 ::clooooooooooollllooooooooooooooddddddddddooooooo
 cccoolooooooooooolllccccllllloooooooooooooooooooll
@@ -63,37 +75,34 @@ dddxxxxxxxxddl:.     ......'''''''..:odddddddddddd
 ddxxxxxxxxxdolc'.   ..........''',..,clodddddddddd
 ddxddddxxdddocc:,.  ...............  ...',,;:ccllo
 ddddddddoddoc:;;,'............''..           .....
-oooddooolc;'...',;;;,,,,,,;;:::;.                 
-ooolc:,'..      ..,;;:::ccc::,..                  
-ooc,.              .',,''''..                     
-</span>
+oooddooolc;'...',;;;,,,,,,;;:::;.
+ooolc:,'..      ..,;;:::ccc::,..
+ooc,.              .',,''''..
 </pre>
 
-</hr>
-<span id="info">
-<h2>Find Me</h2>
-<ul>
-	<li><a href="http://chat.meatspac.es">Meatspace</a></li>
-	<li><a href="http://twitter.com/taotetek">Twitter</a></li>
-	<li><a href="http://taotetek.net/">Wordpress</a></li>
-	<li><a href="http://github.com/taotetek/">Github</a></li>
-</ul>
-<h2>Open Source</h2>
-<h3>Projects</h3>
-<ul>
-<li><a href="http://github.com/zeromq/goczmq">GOCZMQ: Golang CZMQ API</a></li>
-<li><a href="http://github.com/revisitors/gorevisit">GoRevisit Micro-Framework</a></li>
-<li><a href="http://czmq.zeromq.org/">CZMQ (Contributor)</a></li>
-<li><a href="http://meatspac.es/">Meatspace (Contributor)</a></li>
-<li><a href="http://www.rsyslog.com/">Rsyslog (Contributor)</a></li>
-<li><a href="http://testutils.org/multi-mechanize/">Multi-Mechanize (Contributor)</a></li>
-</ul>
-<h3>Organizations</h3>
-<ul>
-<li><a href="http://github.com/zeromq">Owners Team - ZeroMQ</a></li>
-<li><a href="http://github.com/revisitors">Owners Team - Revisitors</a></li>
-</ul>
-</span>
-</center>
+  <div id="info">
+    <h2>Find Me</h2>
+    <ul>
+    	<li><a href="http://chat.meatspac.es">Meatspace</a></li>
+    	<li><a href="http://twitter.com/taotetek">Twitter</a></li>
+    	<li><a href="http://taotetek.net/">Wordpress</a></li>
+    	<li><a href="http://github.com/taotetek/">Github</a></li>
+    </ul>
+    <h2>Open Source</h2>
+    <h3>Projects</h3>
+    <ul>
+      <li><a href="http://github.com/zeromq/goczmq">GOCZMQ: Golang CZMQ API</a></li>
+      <li><a href="http://github.com/revisitors/gorevisit">GoRevisit Micro-Framework</a></li>
+      <li><a href="http://czmq.zeromq.org/">CZMQ (Contributor)</a></li>
+      <li><a href="http://meatspac.es/">Meatspace (Contributor)</a></li>
+      <li><a href="http://www.rsyslog.com/">Rsyslog (Contributor)</a></li>
+      <li><a href="http://testutils.org/multi-mechanize/">Multi-Mechanize (Contributor)</a></li>
+    </ul>
+    <h3>Organizations</h3>
+    <ul>
+    <li><a href="http://github.com/zeromq">Owners Team - ZeroMQ</a></li>
+    <li><a href="http://github.com/revisitors">Owners Team - Revisitors</a></li>
+    </ul>
+  </div>
 </body>
 </html>
